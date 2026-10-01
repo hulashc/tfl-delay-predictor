@@ -1,0 +1,19 @@
+# Databricks
+.databricks/
+.bundle/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Secrets - never commit keys
+.env
+*.secret
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

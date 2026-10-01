@@ -1,0 +1,53 @@
+# Databricks Asset Bundle - deploys the pipeline and both jobs in one command:
+#   databricks bundle validate
+#   databricks bundle deploy
+# If you already created these by hand in the UI, pause or delete those first
+# so you don't end up with duplicate schedules.
+
+bundle:
+  name: tfl-delay-predictor
+
+resources:
+  pipelines:
+    tfl_pipeline:
+      name: tfl_pipeline
+      catalog: tfl
+      schema: bronze
+      serverless: true
+      continuous: false
+      libraries:
+        - file:
+            path: ./src/pipeline/03_bronze.py
+        - file:
+            path: ./src/pipeline/04_silver.py
+        - file:
+            path: ./src/pipeline/05_gold.py
+
+  jobs:
+    tfl_ingest_raw:
+      name: tfl_ingest_raw
+      schedule:
+        quartz_cron_expression: "0 0/15 * * * ?"
+        timezone_id: Europe/London
+      tasks:
+        - task_key: ingest
+          notebook_task:
+            notebook_path: ./notebooks/02_ingest_raw.py
+          max_retries: 1
+          timeout_seconds: 300
+
+    tfl_pipeline_hourly:
+      name: tfl_pipeline_hourly
+      schedule:
+        quartz_cron_expression: "0 7 * * * ?"
+        timezone_id: Europe/London
+      tasks:
+        - task_key: refresh_pipeline
+          pipeline_task:
+            pipeline_id: ${resources.pipelines.tfl_pipeline.id}
+          max_retries: 1
+
+targets:
+  dev:
+    mode: development
+    default: true
