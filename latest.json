@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T20:18:47.508823+00:00",
-  "scored_at": "2026-10-02T20:18:15.738112+00:00",
-  "predicted_for": "2026-10-02T21:00:00+00:00",
+  "generated_at": "2026-10-02T21:17:46.466462+00:00",
+  "scored_at": "2026-10-02T21:17:17.987572+00:00",
+  "predicted_for": "2026-10-02T22:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
@@ -89,8 +89,8 @@
       "id": "lioness",
       "name": "Lioness",
       "mode": "overground",
-      "now": "Minor disruption",
-      "now_disrupted": true,
+      "now": "Good service",
+      "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
     },
@@ -107,8 +107,8 @@
       "id": "mildmay",
       "name": "Mildmay",
       "mode": "overground",
-      "now": "Good service",
-      "now_disrupted": false,
+      "now": "Minor disruption",
+      "now_disrupted": true,
       "probability": 0.0,
       "band": "clear"
     },
@@ -177,9 +177,9 @@
     }
   ],
   "track_record_24h": {
-    "caught": 102,
-    "total": 167,
-    "false_alarms": 132,
-    "checked": 1354
+    "caught": 106,
+    "total": 172,
+    "false_alarms": 144,
+    "checked": 1430
   }
 }
