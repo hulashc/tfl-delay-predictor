@@ -1,0 +1,185 @@
+{
+  "generated_at": "2026-10-02T18:40:13.506459+00:00",
+  "scored_at": "2026-10-02T18:19:22.278238+00:00",
+  "predicted_for": "2026-10-02T19:00:00+00:00",
+  "model_version": 2,
+  "lines": [
+    {
+      "id": "bakerloo",
+      "name": "Bakerloo",
+      "mode": "tube",
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
+      "band": "clear"
+    },
+    {
+      "id": "central",
+      "name": "Central",
+      "mode": "tube",
+      "now": "Minor disruption",
+      "now_disrupted": true,
+      "probability": 1.0,
+      "band": "likely"
+    },
+    {
+      "id": "circle",
+      "name": "Circle",
+      "mode": "tube",
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
+      "band": "clear"
+    },
+    {
+      "id": "dlr",
+      "name": "DLR",
+      "mode": "dlr",
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
+      "band": "clear"
+    },
+    {
+      "id": "district",
+      "name": "District",
+      "mode": "tube",
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
+      "band": "clear"
+    },
+    {
+      "id": "elizabeth",
+      "name": "Elizabeth line",
+      "mode": "elizabeth-line",
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
+      "band": "clear"
+    },
+    {
+      "id": "hammersmith-city",
+      "name": "Hammersmith & City",
+      "mode": "tube",
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
+      "band": "clear"
+    },
+    {
+      "id": "jubilee",
+      "name": "Jubilee",
+      "mode": "tube",
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
+      "band": "clear"
+    },
+    {
+      "id": "liberty",
+      "name": "Liberty",
+      "mode": "overground",
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
+      "band": "clear"
+    },
+    {
+      "id": "lioness",
+      "name": "Lioness",
+      "mode": "overground",
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
+      "band": "clear"
+    },
+    {
+      "id": "metropolitan",
+      "name": "Metropolitan",
+      "mode": "tube",
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
+      "band": "clear"
+    },
+    {
+      "id": "mildmay",
+      "name": "Mildmay",
+      "mode": "overground",
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
+      "band": "clear"
+    },
+    {
+      "id": "northern",
+      "name": "Northern",
+      "mode": "tube",
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
+      "band": "clear"
+    },
+    {
+      "id": "piccadilly",
+      "name": "Piccadilly",
+      "mode": "tube",
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
+      "band": "clear"
+    },
+    {
+      "id": "suffragette",
+      "name": "Suffragette",
+      "mode": "overground",
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
+      "band": "clear"
+    },
+    {
+      "id": "victoria",
+      "name": "Victoria",
+      "mode": "tube",
+      "now": "Severe delays",
+      "now_disrupted": true,
+      "probability": 1.0,
+      "band": "likely"
+    },
+    {
+      "id": "waterloo-city",
+      "name": "Waterloo & City",
+      "mode": "tube",
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
+      "band": "clear"
+    },
+    {
+      "id": "weaver",
+      "name": "Weaver",
+      "mode": "overground",
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
+      "band": "clear"
+    },
+    {
+      "id": "windrush",
+      "name": "Windrush",
+      "mode": "overground",
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
+      "band": "clear"
+    }
+  ],
+  "track_record_24h": {
+    "caught": 89,
+    "total": 146,
+    "false_alarms": 123,
+    "checked": 1202
+  }
+}
