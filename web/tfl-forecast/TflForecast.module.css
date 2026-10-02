@@ -1,0 +1,138 @@
+/* Inherits your site's font and text colour; only the TfL bits are fixed colours. */
+
+.wrap {
+  --tfl-blue: #0019a8;
+  --rule: color-mix(in srgb, currentColor 14%, transparent);
+  --muted: color-mix(in srgb, currentColor 62%, transparent);
+  max-width: 46rem;
+}
+
+.when {
+  color: var(--tfl-blue);
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin: 0 0 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .when { color: #7f97ff; }
+}
+
+.hero {
+  font-weight: 800;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  margin: 0 0 1rem;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 0.92rem;
+  max-width: 60ch;
+  margin: 0 0 1.5rem;
+}
+
+.note {
+  background: #fff6d6;
+  color: #3d3a2e;
+  border-left: 4px solid #ffd300;
+  padding: 0.7rem 0.9rem;
+  font-size: 0.9rem;
+  margin: 0 0 1.5rem;
+}
+
+.group {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin: 1.6rem 0 0.3rem;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 11rem 1fr auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.55rem 0.7rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.15;
+}
+
+.badgeSmall {
+  padding: 0.25rem 0.55rem;
+  font-size: 0.85rem;
+}
+
+.now {
+  font-size: 0.92rem;
+}
+
+.nowBad {
+  color: #d93a30;
+  font-weight: 700;
+}
+
+.forecast {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  min-width: 8.5rem;
+}
+
+.pill {
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 99px;
+  white-space: nowrap;
+}
+
+.clear  { background: #e3f1e6; color: #0b6b2b; }
+.watch  { background: #fff1c2; color: #7a5b00; }
+.likely { background: #b3261e; color: #ffffff; }
+
+.pct {
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  width: 2.6rem;
+  text-align: right;
+}
+
+.track {
+  margin-top: 1.5rem;
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+.track strong {
+  color: currentColor;
+}
+
+@media (max-width: 560px) {
+  .row { grid-template-columns: 1fr auto; }
+  .now { grid-column: 1; grid-row: 2; padding-bottom: 0.3rem; }
+  .forecast { grid-column: 2; grid-row: 1 / span 2; min-width: 0; }
+}

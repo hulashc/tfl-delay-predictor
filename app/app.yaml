@@ -1,4 +1,12 @@
-command: ["streamlit", "run", "app.py"]
+command:
+  - streamlit
+  - run
+  - app.py
+  - --theme.base=light
+  - --theme.primaryColor=#0019A8
+  - --theme.backgroundColor=#FFFFFF
+  - --theme.secondaryBackgroundColor=#F2F4F7
+  - --theme.textColor=#1D1D1B
 env:
   - name: DATABRICKS_WAREHOUSE_ID
     valueFrom: sql-warehouse

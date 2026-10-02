@@ -1,4 +1,6 @@
-# Databricks Asset Bundle - deploys the pipeline and both jobs in one command:
+# Databricks Asset Bundle - deploys the pipeline and both jobs in one command.
+# (The Databricks App is deployed separately from ./app - see README.)
+#
 #   databricks bundle validate
 #   databricks bundle deploy
 # If you already created these by hand in the UI, pause or delete those first
@@ -45,6 +47,18 @@ resources:
         - task_key: refresh_pipeline
           pipeline_task:
             pipeline_id: ${resources.pipelines.tfl_pipeline.id}
+          max_retries: 1
+        - task_key: score
+          depends_on:
+            - task_key: refresh_pipeline
+          notebook_task:
+            notebook_path: ./notebooks/07_score.py
+          max_retries: 1
+        - task_key: export_snapshot
+          depends_on:
+            - task_key: score
+          notebook_task:
+            notebook_path: ./notebooks/08_export_snapshot.py
           max_retries: 1
 
 targets:
