@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-02T18:40:13.506459+00:00",
-  "scored_at": "2026-10-02T18:19:22.278238+00:00",
-  "predicted_for": "2026-10-02T19:00:00+00:00",
+  "generated_at": "2026-10-02T19:19:43.757054+00:00",
+  "scored_at": "2026-10-02T19:19:10.508268+00:00",
+  "predicted_for": "2026-10-02T20:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
       "id": "bakerloo",
       "name": "Bakerloo",
       "mode": "tube",
-      "now": "Good service",
-      "now_disrupted": false,
+      "now": "Suspended",
+      "now_disrupted": true,
       "probability": 0.0,
       "band": "clear"
     },
@@ -89,8 +89,8 @@
       "id": "lioness",
       "name": "Lioness",
       "mode": "overground",
-      "now": "Good service",
-      "now_disrupted": false,
+      "now": "Severe delays",
+      "now_disrupted": true,
       "probability": 0.0,
       "band": "clear"
     },
@@ -100,8 +100,8 @@
       "mode": "tube",
       "now": "Good service",
       "now_disrupted": false,
-      "probability": 0.0,
-      "band": "clear"
+      "probability": 1.0,
+      "band": "likely"
     },
     {
       "id": "mildmay",
@@ -127,8 +127,8 @@
       "mode": "tube",
       "now": "Good service",
       "now_disrupted": false,
-      "probability": 0.0,
-      "band": "clear"
+      "probability": 1.0,
+      "band": "likely"
     },
     {
       "id": "suffragette",
@@ -177,9 +177,9 @@
     }
   ],
   "track_record_24h": {
-    "caught": 89,
-    "total": 146,
+    "caught": 97,
+    "total": 158,
     "false_alarms": 123,
-    "checked": 1202
+    "checked": 1278
   }
 }
