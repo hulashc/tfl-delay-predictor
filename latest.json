@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-03T19:19:53.429883+00:00",
-  "scored_at": "2026-10-03T19:19:23.776909+00:00",
-  "predicted_for": "2026-10-03T20:00:00+00:00",
+  "generated_at": "2026-10-03T20:19:14.153857+00:00",
+  "scored_at": "2026-10-03T20:18:41.984729+00:00",
+  "predicted_for": "2026-10-03T21:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
@@ -19,7 +19,7 @@
       "mode": "tube",
       "now": "Good service",
       "now_disrupted": false,
-      "probability": 0.963,
+      "probability": 0.961,
       "band": "likely"
     },
     {
@@ -100,15 +100,15 @@
       "mode": "tube",
       "now": "Minor disruption",
       "now_disrupted": true,
-      "probability": 0.071,
+      "probability": 0.069,
       "band": "clear"
     },
     {
       "id": "mildmay",
       "name": "Mildmay",
       "mode": "overground",
-      "now": "Good service",
-      "now_disrupted": false,
+      "now": "Minor disruption",
+      "now_disrupted": true,
       "probability": 0.0,
       "band": "clear"
     },
@@ -177,9 +177,9 @@
     }
   ],
   "track_record_24h": {
-    "caught": 122,
-    "total": 230,
-    "false_alarms": 200,
-    "checked": 1473
+    "caught": 123,
+    "total": 240,
+    "false_alarms": 193,
+    "checked": 1465
   }
 }
