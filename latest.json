@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-03T05:18:31.872367+00:00",
-  "scored_at": "2026-10-03T05:18:02.968180+00:00",
-  "predicted_for": "2026-10-03T06:00:00+00:00",
+  "generated_at": "2026-10-03T06:18:30.556085+00:00",
+  "scored_at": "2026-10-03T06:17:57.666298+00:00",
+  "predicted_for": "2026-10-03T07:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
@@ -62,8 +62,8 @@
       "id": "hammersmith-city",
       "name": "Hammersmith & City",
       "mode": "tube",
-      "now": "Minor disruption",
-      "now_disrupted": true,
+      "now": "Good service",
+      "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
     },
@@ -98,7 +98,7 @@
       "id": "metropolitan",
       "name": "Metropolitan",
       "mode": "tube",
-      "now": "Severe delays",
+      "now": "Minor disruption",
       "now_disrupted": true,
       "probability": 1.0,
       "band": "likely"
@@ -178,8 +178,8 @@
   ],
   "track_record_24h": {
     "caught": 117,
-    "total": 194,
+    "total": 187,
     "false_alarms": 197,
-    "checked": 1619
+    "checked": 1611
   }
 }
