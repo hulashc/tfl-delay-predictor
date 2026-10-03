@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-03T10:19:00.064739+00:00",
-  "scored_at": "2026-10-03T10:18:27.876774+00:00",
-  "predicted_for": "2026-10-03T11:00:00+00:00",
+  "generated_at": "2026-10-03T11:17:14.116439+00:00",
+  "scored_at": "2026-10-03T11:16:42.688976+00:00",
+  "predicted_for": "2026-10-03T12:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
@@ -44,8 +44,8 @@
       "id": "district",
       "name": "District",
       "mode": "tube",
-      "now": "Suspended",
-      "now_disrupted": true,
+      "now": "Good service",
+      "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
     },
@@ -98,7 +98,7 @@
       "id": "metropolitan",
       "name": "Metropolitan",
       "mode": "tube",
-      "now": "Severe delays",
+      "now": "Minor disruption",
       "now_disrupted": true,
       "probability": 1.0,
       "band": "likely"
@@ -116,7 +116,7 @@
       "id": "northern",
       "name": "Northern",
       "mode": "tube",
-      "now": "Minor disruption",
+      "now": "Severe delays",
       "now_disrupted": true,
       "probability": 0.0,
       "band": "clear"
@@ -125,8 +125,8 @@
       "id": "piccadilly",
       "name": "Piccadilly",
       "mode": "tube",
-      "now": "Minor disruption",
-      "now_disrupted": true,
+      "now": "Good service",
+      "now_disrupted": false,
       "probability": 1.0,
       "band": "likely"
     },
@@ -170,16 +170,16 @@
       "id": "windrush",
       "name": "Windrush",
       "mode": "overground",
-      "now": "Minor disruption",
-      "now_disrupted": true,
+      "now": "Good service",
+      "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
     }
   ],
   "track_record_24h": {
-    "caught": 126,
-    "total": 192,
-    "false_alarms": 188,
-    "checked": 1579
+    "caught": 130,
+    "total": 202,
+    "false_alarms": 184,
+    "checked": 1571
   }
 }
