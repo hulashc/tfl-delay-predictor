@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-03T00:16:48.314573+00:00",
-  "scored_at": "2026-10-03T00:16:15.380321+00:00",
-  "predicted_for": "2026-10-03T01:00:00+00:00",
+  "generated_at": "2026-10-03T01:19:24.557550+00:00",
+  "scored_at": "2026-10-03T01:18:55.312320+00:00",
+  "predicted_for": "2026-10-03T02:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
       "id": "bakerloo",
       "name": "Bakerloo",
       "mode": "tube",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -26,7 +26,7 @@
       "id": "circle",
       "name": "Circle",
       "mode": "tube",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -35,7 +35,7 @@
       "id": "dlr",
       "name": "DLR",
       "mode": "dlr",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -44,7 +44,7 @@
       "id": "district",
       "name": "District",
       "mode": "tube",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -53,7 +53,7 @@
       "id": "elizabeth",
       "name": "Elizabeth line",
       "mode": "elizabeth-line",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -62,7 +62,7 @@
       "id": "hammersmith-city",
       "name": "Hammersmith & City",
       "mode": "tube",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -71,7 +71,7 @@
       "id": "jubilee",
       "name": "Jubilee",
       "mode": "tube",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -80,7 +80,7 @@
       "id": "liberty",
       "name": "Liberty",
       "mode": "overground",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -89,7 +89,7 @@
       "id": "lioness",
       "name": "Lioness",
       "mode": "overground",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -98,7 +98,7 @@
       "id": "metropolitan",
       "name": "Metropolitan",
       "mode": "tube",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 1.0,
       "band": "likely"
@@ -107,7 +107,7 @@
       "id": "mildmay",
       "name": "Mildmay",
       "mode": "overground",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -134,7 +134,7 @@
       "id": "suffragette",
       "name": "Suffragette",
       "mode": "overground",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -143,8 +143,8 @@
       "id": "victoria",
       "name": "Victoria",
       "mode": "tube",
-      "now": "Severe delays",
-      "now_disrupted": true,
+      "now": "Good service",
+      "now_disrupted": false,
       "probability": 1.0,
       "band": "likely"
     },
@@ -161,7 +161,7 @@
       "id": "weaver",
       "name": "Weaver",
       "mode": "overground",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -177,9 +177,9 @@
     }
   ],
   "track_record_24h": {
-    "caught": 114,
-    "total": 190,
-    "false_alarms": 168,
-    "checked": 1586
+    "caught": 117,
+    "total": 193,
+    "false_alarms": 177,
+    "checked": 1607
   }
 }
