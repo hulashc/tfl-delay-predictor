@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T17:18:25.694589+00:00",
-  "scored_at": "2026-10-04T17:17:57.139784+00:00",
-  "predicted_for": "2026-10-04T18:00:00+00:00",
+  "generated_at": "2026-10-04T18:19:37.950768+00:00",
+  "scored_at": "2026-10-04T18:19:06.274916+00:00",
+  "predicted_for": "2026-10-04T19:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
@@ -98,9 +98,9 @@
       "id": "metropolitan",
       "name": "Metropolitan",
       "mode": "tube",
-      "now": "Minor disruption",
-      "now_disrupted": true,
-      "probability": 0.067,
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
       "band": "clear"
     },
     {
@@ -170,16 +170,16 @@
       "id": "windrush",
       "name": "Windrush",
       "mode": "overground",
-      "now": "Planned works or notice",
-      "now_disrupted": false,
+      "now": "Minor disruption",
+      "now_disrupted": true,
       "probability": 0.0,
       "band": "clear"
     }
   ],
   "track_record_24h": {
-    "caught": 101,
-    "total": 277,
-    "false_alarms": 174,
-    "checked": 1296
+    "caught": 102,
+    "total": 275,
+    "false_alarms": 175,
+    "checked": 1307
   }
 }
