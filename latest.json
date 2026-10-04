@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T16:19:41.759453+00:00",
-  "scored_at": "2026-10-04T16:19:06.058050+00:00",
-  "predicted_for": "2026-10-04T17:00:00+00:00",
+  "generated_at": "2026-10-04T17:18:25.694589+00:00",
+  "scored_at": "2026-10-04T17:17:57.139784+00:00",
+  "predicted_for": "2026-10-04T18:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
@@ -107,7 +107,7 @@
       "id": "mildmay",
       "name": "Mildmay",
       "mode": "overground",
-      "now": "Suspended",
+      "now": "Minor disruption",
       "now_disrupted": true,
       "probability": 0.0,
       "band": "clear"
@@ -178,8 +178,8 @@
   ],
   "track_record_24h": {
     "caught": 101,
-    "total": 282,
+    "total": 277,
     "false_alarms": 174,
-    "checked": 1304
+    "checked": 1296
   }
 }
