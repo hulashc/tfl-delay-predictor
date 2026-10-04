@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T19:16:55.579029+00:00",
-  "scored_at": "2026-10-04T19:16:23.986023+00:00",
-  "predicted_for": "2026-10-04T20:00:00+00:00",
+  "generated_at": "2026-10-04T20:18:52.446445+00:00",
+  "scored_at": "2026-10-04T20:18:18.317004+00:00",
+  "predicted_for": "2026-10-04T21:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
@@ -26,8 +26,8 @@
       "id": "circle",
       "name": "Circle",
       "mode": "tube",
-      "now": "Good service",
-      "now_disrupted": false,
+      "now": "Minor disruption",
+      "now_disrupted": true,
       "probability": 0.0,
       "band": "clear"
     },
@@ -62,8 +62,8 @@
       "id": "hammersmith-city",
       "name": "Hammersmith & City",
       "mode": "tube",
-      "now": "Good service",
-      "now_disrupted": false,
+      "now": "Minor disruption",
+      "now_disrupted": true,
       "probability": 0.0,
       "band": "clear"
     },
@@ -98,9 +98,9 @@
       "id": "metropolitan",
       "name": "Metropolitan",
       "mode": "tube",
-      "now": "Good service",
-      "now_disrupted": false,
-      "probability": 0.0,
+      "now": "Minor disruption",
+      "now_disrupted": true,
+      "probability": 0.069,
       "band": "clear"
     },
     {
@@ -145,7 +145,7 @@
       "mode": "tube",
       "now": "Good service",
       "now_disrupted": false,
-      "probability": 0.96,
+      "probability": 0.961,
       "band": "likely"
     },
     {
@@ -178,8 +178,8 @@
   ],
   "track_record_24h": {
     "caught": 100,
-    "total": 275,
+    "total": 273,
     "false_alarms": 173,
-    "checked": 1318
+    "checked": 1310
   }
 }
