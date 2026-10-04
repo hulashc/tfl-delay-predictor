@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T06:19:48.329738+00:00",
-  "scored_at": "2026-10-04T06:19:17.337772+00:00",
-  "predicted_for": "2026-10-04T07:00:00+00:00",
+  "generated_at": "2026-10-04T07:18:52.885541+00:00",
+  "scored_at": "2026-10-04T07:18:23.726717+00:00",
+  "predicted_for": "2026-10-04T08:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
@@ -177,9 +177,9 @@
     }
   ],
   "track_record_24h": {
-    "caught": 125,
-    "total": 297,
-    "false_alarms": 148,
-    "checked": 1380
+    "caught": 124,
+    "total": 296,
+    "false_alarms": 149,
+    "checked": 1372
   }
 }
