@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T07:18:52.885541+00:00",
-  "scored_at": "2026-10-04T07:18:23.726717+00:00",
-  "predicted_for": "2026-10-04T08:00:00+00:00",
+  "generated_at": "2026-10-04T08:18:23.720677+00:00",
+  "scored_at": "2026-10-04T08:17:52.329286+00:00",
+  "predicted_for": "2026-10-04T09:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
@@ -98,8 +98,8 @@
       "id": "metropolitan",
       "name": "Metropolitan",
       "mode": "tube",
-      "now": "Good service",
-      "now_disrupted": false,
+      "now": "Suspended",
+      "now_disrupted": true,
       "probability": 1.0,
       "band": "likely"
     },
@@ -177,9 +177,9 @@
     }
   ],
   "track_record_24h": {
-    "caught": 124,
-    "total": 296,
-    "false_alarms": 149,
-    "checked": 1372
+    "caught": 118,
+    "total": 290,
+    "false_alarms": 155,
+    "checked": 1364
   }
 }
