@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T10:18:33.382905+00:00",
-  "scored_at": "2026-10-04T10:18:06.289951+00:00",
-  "predicted_for": "2026-10-04T11:00:00+00:00",
+  "generated_at": "2026-10-04T11:19:31.069770+00:00",
+  "scored_at": "2026-10-04T11:18:59.243512+00:00",
+  "predicted_for": "2026-10-04T12:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
@@ -17,8 +17,8 @@
       "id": "central",
       "name": "Central",
       "mode": "tube",
-      "now": "Good service",
-      "now_disrupted": false,
+      "now": "Minor disruption",
+      "now_disrupted": true,
       "probability": 1.0,
       "band": "likely"
     },
@@ -177,9 +177,9 @@
     }
   ],
   "track_record_24h": {
-    "caught": 110,
-    "total": 269,
-    "false_alarms": 163,
-    "checked": 1348
+    "caught": 107,
+    "total": 265,
+    "false_alarms": 166,
+    "checked": 1340
   }
 }
