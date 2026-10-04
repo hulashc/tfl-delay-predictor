@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T13:20:02.062403+00:00",
-  "scored_at": "2026-10-04T13:19:32.086853+00:00",
-  "predicted_for": "2026-10-04T14:00:00+00:00",
+  "generated_at": "2026-10-04T14:19:27.859647+00:00",
+  "scored_at": "2026-10-04T14:18:55.950217+00:00",
+  "predicted_for": "2026-10-04T15:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
@@ -107,7 +107,7 @@
       "id": "mildmay",
       "name": "Mildmay",
       "mode": "overground",
-      "now": "Severe delays",
+      "now": "Suspended",
       "now_disrupted": true,
       "probability": 0.0,
       "band": "clear"
@@ -125,9 +125,9 @@
       "id": "piccadilly",
       "name": "Piccadilly",
       "mode": "tube",
-      "now": "Good service",
-      "now_disrupted": false,
-      "probability": 0.0,
+      "now": "Minor disruption",
+      "now_disrupted": true,
+      "probability": 0.067,
       "band": "clear"
     },
     {
@@ -170,16 +170,16 @@
       "id": "windrush",
       "name": "Windrush",
       "mode": "overground",
-      "now": "Suspended",
-      "now_disrupted": true,
+      "now": "Planned works or notice",
+      "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
     }
   ],
   "track_record_24h": {
-    "caught": 109,
-    "total": 275,
-    "false_alarms": 164,
-    "checked": 1327
+    "caught": 107,
+    "total": 279,
+    "false_alarms": 168,
+    "checked": 1320
   }
 }
