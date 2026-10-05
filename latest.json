@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-04T23:18:53.986897+00:00",
-  "scored_at": "2026-10-04T23:18:20.526458+00:00",
-  "predicted_for": "2026-10-05T00:00:00+00:00",
+  "generated_at": "2026-10-05T00:19:33.115651+00:00",
+  "scored_at": "2026-10-05T00:18:54.863397+00:00",
+  "predicted_for": "2026-10-05T00:45:00+00:00",
   "model_version": 2,
   "lines": [
     {
       "id": "bakerloo",
       "name": "Bakerloo",
       "mode": "tube",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -17,8 +17,8 @@
       "id": "central",
       "name": "Central",
       "mode": "tube",
-      "now": "Minor disruption",
-      "now_disrupted": true,
+      "now": "Good service",
+      "now_disrupted": false,
       "probability": 1.0,
       "band": "likely"
     },
@@ -26,7 +26,7 @@
       "id": "circle",
       "name": "Circle",
       "mode": "tube",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -44,8 +44,8 @@
       "id": "district",
       "name": "District",
       "mode": "tube",
-      "now": "Minor disruption",
-      "now_disrupted": true,
+      "now": "Good service",
+      "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
     },
@@ -62,8 +62,8 @@
       "id": "hammersmith-city",
       "name": "Hammersmith & City",
       "mode": "tube",
-      "now": "Minor disruption",
-      "now_disrupted": true,
+      "now": "Planned works or notice",
+      "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
     },
@@ -98,7 +98,7 @@
       "id": "metropolitan",
       "name": "Metropolitan",
       "mode": "tube",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 1.0,
       "band": "likely"
@@ -116,7 +116,7 @@
       "id": "northern",
       "name": "Northern",
       "mode": "tube",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -152,7 +152,7 @@
       "id": "waterloo-city",
       "name": "Waterloo & City",
       "mode": "tube",
-      "now": "Planned works or notice",
+      "now": "Good service",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -177,9 +177,9 @@
     }
   ],
   "track_record_24h": {
-    "caught": 96,
-    "total": 258,
-    "false_alarms": 181,
-    "checked": 1287
+    "caught": 91,
+    "total": 250,
+    "false_alarms": 182,
+    "checked": 1268
   }
 }
