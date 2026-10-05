@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-05T00:19:33.115651+00:00",
-  "scored_at": "2026-10-05T00:18:54.863397+00:00",
-  "predicted_for": "2026-10-05T00:45:00+00:00",
+  "generated_at": "2026-10-05T01:17:15.333915+00:00",
+  "scored_at": "2026-10-05T01:16:45.634123+00:00",
+  "predicted_for": "2026-10-05T02:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
@@ -17,7 +17,7 @@
       "id": "central",
       "name": "Central",
       "mode": "tube",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 1.0,
       "band": "likely"
@@ -44,7 +44,7 @@
       "id": "district",
       "name": "District",
       "mode": "tube",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -53,7 +53,7 @@
       "id": "elizabeth",
       "name": "Elizabeth line",
       "mode": "elizabeth-line",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -80,7 +80,7 @@
       "id": "liberty",
       "name": "Liberty",
       "mode": "overground",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -89,7 +89,7 @@
       "id": "lioness",
       "name": "Lioness",
       "mode": "overground",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -107,8 +107,8 @@
       "id": "mildmay",
       "name": "Mildmay",
       "mode": "overground",
-      "now": "Minor disruption",
-      "now_disrupted": true,
+      "now": "Planned works or notice",
+      "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
     },
@@ -125,7 +125,7 @@
       "id": "piccadilly",
       "name": "Piccadilly",
       "mode": "tube",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 1.0,
       "band": "likely"
@@ -134,7 +134,7 @@
       "id": "suffragette",
       "name": "Suffragette",
       "mode": "overground",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -143,7 +143,7 @@
       "id": "victoria",
       "name": "Victoria",
       "mode": "tube",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 1.0,
       "band": "likely"
@@ -152,7 +152,7 @@
       "id": "waterloo-city",
       "name": "Waterloo & City",
       "mode": "tube",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -161,7 +161,7 @@
       "id": "weaver",
       "name": "Weaver",
       "mode": "overground",
-      "now": "Good service",
+      "now": "Planned works or notice",
       "now_disrupted": false,
       "probability": 0.0,
       "band": "clear"
@@ -178,8 +178,8 @@
   ],
   "track_record_24h": {
     "caught": 91,
-    "total": 250,
-    "false_alarms": 182,
-    "checked": 1268
+    "total": 251,
+    "false_alarms": 175,
+    "checked": 1259
   }
 }
