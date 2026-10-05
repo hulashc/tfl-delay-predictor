@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-05T12:18:02.283415+00:00",
-  "scored_at": "2026-10-05T12:17:28.009665+00:00",
-  "predicted_for": "2026-10-05T13:00:00+00:00",
+  "generated_at": "2026-10-05T13:19:29.904823+00:00",
+  "scored_at": "2026-10-05T13:19:02.184118+00:00",
+  "predicted_for": "2026-10-05T14:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
@@ -19,7 +19,7 @@
       "mode": "tube",
       "now": "Good service",
       "now_disrupted": false,
-      "probability": 0.961,
+      "probability": 0.96,
       "band": "likely"
     },
     {
@@ -177,9 +177,9 @@
     }
   ],
   "track_record_24h": {
-    "caught": 83,
-    "total": 227,
-    "false_alarms": 179,
-    "checked": 1379
+    "caught": 79,
+    "total": 215,
+    "false_alarms": 175,
+    "checked": 1391
   }
 }
