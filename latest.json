@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-05T08:17:31.650607+00:00",
-  "scored_at": "2026-10-05T08:16:56.871646+00:00",
-  "predicted_for": "2026-10-05T09:00:00+00:00",
+  "generated_at": "2026-10-05T09:19:37.930298+00:00",
+  "scored_at": "2026-10-05T09:19:07.003921+00:00",
+  "predicted_for": "2026-10-05T10:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
@@ -17,8 +17,8 @@
       "id": "central",
       "name": "Central",
       "mode": "tube",
-      "now": "Minor disruption",
-      "now_disrupted": true,
+      "now": "Good service",
+      "now_disrupted": false,
       "probability": 1.0,
       "band": "likely"
     },
@@ -44,8 +44,8 @@
       "id": "district",
       "name": "District",
       "mode": "tube",
-      "now": "Good service",
-      "now_disrupted": false,
+      "now": "Minor disruption",
+      "now_disrupted": true,
       "probability": 0.0,
       "band": "clear"
     },
@@ -89,8 +89,8 @@
       "id": "lioness",
       "name": "Lioness",
       "mode": "overground",
-      "now": "Good service",
-      "now_disrupted": false,
+      "now": "Minor disruption",
+      "now_disrupted": true,
       "probability": 0.0,
       "band": "clear"
     },
@@ -125,8 +125,8 @@
       "id": "piccadilly",
       "name": "Piccadilly",
       "mode": "tube",
-      "now": "Minor disruption",
-      "now_disrupted": true,
+      "now": "Good service",
+      "now_disrupted": false,
       "probability": 1.0,
       "band": "likely"
     },
@@ -177,9 +177,9 @@
     }
   ],
   "track_record_24h": {
-    "caught": 92,
-    "total": 246,
-    "false_alarms": 170,
-    "checked": 1315
+    "caught": 91,
+    "total": 243,
+    "false_alarms": 171,
+    "checked": 1331
   }
 }
