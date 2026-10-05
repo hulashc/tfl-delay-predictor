@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-05T05:18:25.644090+00:00",
-  "scored_at": "2026-10-05T05:17:57.087583+00:00",
-  "predicted_for": "2026-10-05T06:00:00+00:00",
+  "generated_at": "2026-10-05T06:19:28.525082+00:00",
+  "scored_at": "2026-10-05T06:18:58.930631+00:00",
+  "predicted_for": "2026-10-05T07:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
@@ -116,8 +116,8 @@
       "id": "northern",
       "name": "Northern",
       "mode": "tube",
-      "now": "Good service",
-      "now_disrupted": false,
+      "now": "Minor disruption",
+      "now_disrupted": true,
       "probability": 0.0,
       "band": "clear"
     },
@@ -177,9 +177,9 @@
     }
   ],
   "track_record_24h": {
-    "caught": 91,
-    "total": 246,
-    "false_alarms": 171,
-    "checked": 1267
+    "caught": 87,
+    "total": 243,
+    "false_alarms": 175,
+    "checked": 1283
   }
 }
