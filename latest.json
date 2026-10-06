@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-06T04:17:37.204872+00:00",
-  "scored_at": "2026-10-06T04:17:04.035642+00:00",
-  "predicted_for": "2026-10-06T05:00:00+00:00",
+  "generated_at": "2026-10-06T05:19:41.575012+00:00",
+  "scored_at": "2026-10-06T05:19:13.020092+00:00",
+  "predicted_for": "2026-10-06T06:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
@@ -44,8 +44,8 @@
       "id": "district",
       "name": "District",
       "mode": "tube",
-      "now": "Good service",
-      "now_disrupted": false,
+      "now": "Minor disruption",
+      "now_disrupted": true,
       "probability": 0.0,
       "band": "clear"
     },
@@ -98,8 +98,8 @@
       "id": "metropolitan",
       "name": "Metropolitan",
       "mode": "tube",
-      "now": "Good service",
-      "now_disrupted": false,
+      "now": "Minor disruption",
+      "now_disrupted": true,
       "probability": 1.0,
       "band": "likely"
     },
@@ -116,8 +116,8 @@
       "id": "northern",
       "name": "Northern",
       "mode": "tube",
-      "now": "Good service",
-      "now_disrupted": false,
+      "now": "Suspended",
+      "now_disrupted": true,
       "probability": 0.0,
       "band": "clear"
     },
@@ -177,9 +177,9 @@
     }
   ],
   "track_record_24h": {
-    "caught": 104,
-    "total": 157,
-    "false_alarms": 146,
-    "checked": 1560
+    "caught": 106,
+    "total": 162,
+    "false_alarms": 144,
+    "checked": 1559
   }
 }
