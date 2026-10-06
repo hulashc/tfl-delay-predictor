@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-06T13:19:24.345761+00:00",
-  "scored_at": "2026-10-06T13:18:54.476965+00:00",
-  "predicted_for": "2026-10-06T14:00:00+00:00",
+  "generated_at": "2026-10-06T14:19:03.995281+00:00",
+  "scored_at": "2026-10-06T14:18:34.468147+00:00",
+  "predicted_for": "2026-10-06T15:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
@@ -19,7 +19,7 @@
       "mode": "tube",
       "now": "Good service",
       "now_disrupted": false,
-      "probability": 0.963,
+      "probability": 0.96,
       "band": "likely"
     },
     {
@@ -127,7 +127,7 @@
       "mode": "tube",
       "now": "Minor disruption",
       "now_disrupted": true,
-      "probability": 0.071,
+      "probability": 0.067,
       "band": "clear"
     },
     {
@@ -145,7 +145,7 @@
       "mode": "tube",
       "now": "Good service",
       "now_disrupted": false,
-      "probability": 0.963,
+      "probability": 0.96,
       "band": "likely"
     },
     {
@@ -177,9 +177,9 @@
     }
   ],
   "track_record_24h": {
-    "caught": 79,
-    "total": 150,
-    "false_alarms": 181,
+    "caught": 74,
+    "total": 146,
+    "false_alarms": 192,
     "checked": 1559
   }
 }
