@@ -49,6 +49,7 @@ notebooks/
   06_train_model.py         # time-split training, baseline, MLflow, UC registry
   07_score.py               # batch scoring -> tfl.gold.predictions
   08_export_snapshot.py     # public JSON snapshot -> GitHub `snapshot` branch
+  09_usage_monitoring.sql   # daily DBU usage by product / job / app
 src/pipeline/
   03_bronze.py              # Auto Loader -> Delta
   04_silver.py              # flatten, label, dedupe, expectations
@@ -90,6 +91,15 @@ databricks.yml              # Asset Bundle: pipeline + both jobs
 - **The model has to earn promotion.** Every run is registered, but the `champion` alias only moves if it beats a persistence baseline ("whatever a line is doing now, it'll still be doing in an hour").
 - **Predictions are kept as history,** so every forecast is checked against what actually happened. Both the app and the website show this track record.
 - **Public site reads a static snapshot, not Databricks.** The export job pushes a small JSON file to a GitHub branch; the Next.js widget fetches it server-side with a 15-minute cache. Always on, free, and the workspace is never exposed. If the jobs stop, the widget says the forecast is paused instead of showing stale data as live.
+
+## Keeping it inside Free Edition limits
+
+Free Edition has daily fair-usage quotas but no page showing what's left, so `notebooks/09_usage_monitoring.sql` tracks usage from `system.billing.usage` by day, product, job and app. What made the biggest difference:
+
+- **Stop the Databricks App when not in use.** It runs on Medium compute for as long as it's on, viewers or not.
+- **Performance-optimised mode off** on both jobs: slower start-up, less compute, and nobody is waiting on these runs.
+- **Triggered pipeline, not continuous,** and an hourly pipeline instead of every 15 minutes.
+- **10-minute cache in the app** so page views don't keep the SQL warehouse busy.
 
 ## Gotchas I hit
 
