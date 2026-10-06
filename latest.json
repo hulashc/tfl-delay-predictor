@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-06T14:19:03.995281+00:00",
-  "scored_at": "2026-10-06T14:18:34.468147+00:00",
-  "predicted_for": "2026-10-06T15:00:00+00:00",
+  "generated_at": "2026-10-06T15:18:50.156085+00:00",
+  "scored_at": "2026-10-06T15:18:17.739897+00:00",
+  "predicted_for": "2026-10-06T16:00:00+00:00",
   "model_version": 2,
   "lines": [
     {
@@ -44,8 +44,8 @@
       "id": "district",
       "name": "District",
       "mode": "tube",
-      "now": "Good service",
-      "now_disrupted": false,
+      "now": "Minor disruption",
+      "now_disrupted": true,
       "probability": 0.0,
       "band": "clear"
     },
@@ -125,9 +125,9 @@
       "id": "piccadilly",
       "name": "Piccadilly",
       "mode": "tube",
-      "now": "Minor disruption",
-      "now_disrupted": true,
-      "probability": 0.067,
+      "now": "Good service",
+      "now_disrupted": false,
+      "probability": 0.0,
       "band": "clear"
     },
     {
@@ -177,9 +177,9 @@
     }
   ],
   "track_record_24h": {
-    "caught": 74,
-    "total": 146,
-    "false_alarms": 192,
+    "caught": 66,
+    "total": 139,
+    "false_alarms": 200,
     "checked": 1559
   }
 }
